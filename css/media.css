@@ -1,0 +1,300 @@
+@media (max-width: 992px) {
+    
+    .hero {
+        padding-top: 130px;
+        padding-bottom: 132px;
+    }
+
+    .hero-img {
+        margin-left: 20px;
+        margin-bottom: 15px;
+    }
+
+    .hero-text {
+        padding: 0px 10px 0px 16px;
+    }
+    
+    .title {
+        margin: 0;
+        margin-bottom: 15px;
+        font-size: 50px;
+    }
+
+    .about {
+        padding-bottom: 47px;
+    }
+
+    .about-wrap {
+        margin-bottom: 23px;
+        background-size: 211px 187px;
+        background-position: left 20px;
+        padding-left: 240px;
+    } 
+
+    .details-wrap {
+        background-position: top left;
+        padding-top: 65px;
+        padding-left: 0;
+    }
+
+    .teachers {
+        padding-top: 75px;
+        padding-bottom: 21px;
+    }
+
+    .teachers-title {
+        margin-bottom: 23px;
+    }
+
+    .persons-item {
+        margin-bottom: 25px;
+    }
+
+    .courses {
+        padding-top: 78px;
+        padding-bottom: 50px;
+    }
+
+    .courses-info {
+        margin-bottom: 21px;
+    }
+
+    .courses-info__wrap {
+        min-height: 376px;
+    }
+
+    .courses-info img {
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+    }
+
+    .courses-info__details {
+        margin-right: 5px;
+    }
+
+    .courses-btn {
+        padding: 22.5px 55.5px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .header {
+        padding-top: 30px;
+        min-height: 133px;
+    }
+
+    .header-logo {
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+
+    .flex {
+        justify-content: space-around;
+    }
+
+    .hero {
+        padding-top: 76px;
+    }
+
+    .hero-img {
+        display: none;
+    }
+
+    .hero-descr {
+        max-width: 345px;
+    }
+
+    .about {
+        padding-bottom: 27px;
+    }
+
+    .about-wrap {
+        padding-left: 180px;
+        background-size: 150px 134px;
+        background-position: left top;
+    }
+
+    .teachers {
+        padding-bottom: 45px;
+    }
+
+    .courses {
+        padding-bottom: 50px;
+    }
+
+    .courses-info {
+        margin-bottom: 25px;
+    }
+
+    .courses-info__wrap {
+        padding: 22px 20px 30px 29px;
+        min-height: 473px;
+    }
+
+    .courses-descr {
+        max-width: 179px;
+    }
+
+    .courses-btn {
+        padding: 22.5px 47.5px;
+    }
+}
+
+@media (max-width: 575px) {
+
+    .header {
+        padding: 23px 0;
+        min-height: 118px;
+    }
+
+    .nav {
+        overflow: scroll;
+        flex-wrap: nowrap;
+        width: 100%;
+    }
+
+    .nav-list {
+        width: 100%;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+
+    .nav__item {
+        min-width: fit-content;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .hero-descr {
+        font-size: 16px;
+        line-height: 130%;
+    }
+
+    .about-wrap {
+        margin-bottom: 0;
+        padding: 15px 0 10px 0;
+        background-image: none;
+    }
+
+    .about-title {
+        margin-bottom: 0;
+        font-size: 20px;
+        line-height: 130%
+    }
+
+    .details-wrap {
+        background-position: left center;
+        padding: 0 0 3px 110px;
+    }
+
+    .teachers-title {
+        font-size: 20px;
+    }
+
+    .teachers-descr {
+        line-height: 150%;
+    }
+
+    .persons-item img {
+        width: 100%;
+    }
+
+    .courses-title {
+        font-size: 20px;
+    }
+
+    .courses-info__wrap {
+        padding: 25px 20px 30px 29px;
+    }
+
+    .courses-info__text {
+        min-width: fit-content;
+    }
+
+    .courses-info img {
+        width: 100%;
+    }
+
+    .courses-subtitle {
+        line-height: 130%;
+    }
+
+    .courses-descr {
+        max-width: 100%;
+        line-height: 150%;
+    }
+
+}
+
+@media (max-width: 320px) {
+
+    .hero {
+        padding-top: 50px;
+        padding-bottom: 47px;
+        background: radial-gradient(49% 49% at 67.78% 84.57%, #555681 0%, #2E2B44 100%);
+    }
+
+    .title {
+        margin-bottom: 5px;
+    }
+
+    .hero-descr {
+        margin-bottom: 45px;
+    }
+
+    .section-descr {
+        font-size: 16px;
+    }
+
+    .btn {
+        padding: 20.5px 53.5px;
+        font-size: 16px;
+    }
+
+    .about {
+        padding-top: 36px;
+        padding-bottom: 35px;
+    }
+
+    .about-descr {
+        line-height: 150%;
+    }
+
+    .about-details {
+        padding: 15px 0;
+        max-width: 180px;
+    }
+
+    .teachers {
+        padding-top: 45px;
+        padding-bottom: 26px;
+    }
+
+    .teachers-title {
+        margin-bottom: 29px;
+    }
+
+    .persons-item {
+        margin-bottom: 22px;
+    }
+
+    .courses {
+        padding-top: 45px;
+        padding-bottom: 21px;
+    }
+
+    .courses-title {
+        margin-bottom: 28px;
+    }
+
+    .courses-subtitle {
+        max-width: 195px;
+    }
+
+    .courses-descr {
+        max-width: 230px;
+    }
+}
